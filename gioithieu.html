@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Giới thiệu - Thế giới điện thoại</title>
+    <link rel="shortcut icon" href="img/favicon.ico" />
+
+    <!-- Load font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        crossorigin="anonymous">
+        
+    <!-- our files -->
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/topnav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/taikhoan.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/gioithieu.css">
+
+    <!-- js -->
+    <script src="data/products.js"></script>
+	<script src="js/dungchung.js"></script>
+    <script>
+        window.onload = function () {
+            khoiTao();
+            // thêm tags (từ khóa) vào khung tìm kiếm
+            var tags = ["Samsung", "iPhone", "Huawei", "Oppo", "Mobi"];
+            for (var t of tags) addTags(t, "index.html?search=" + t);
+        }
+    </script>
+
+</head>
+
+<body>
+    <script> addTopNav();</script>
+
+    <section style="min-height: 85vh">
+        <script> addHeader(); </script>
+
+        <div class="page-gt">
+            <h4 class="page-header">
+                Giới thiệu
+            </h4>
+            <div class="page-info">
+                <p>Được thành lập từ đầu tháng 10 năm 2025, chúng tôi là nhóm sinh viên lớp CNTT3-K65 gồm 5 thành viên. Dù mới hoạt động được 1 tháng, nhưng nhóm đã nhanh chóng xây dựng được tinh thần đoàn kết, trách nhiệm và luôn hỗ trợ nhau trong học tập cũng như trong các dự án thực hành.
+                </p>
+                <br />
+
+                    Ngay từ khi thành lập, nhóm đã thống nhất mục tiêu chung là học hỏi, trau dồi kiến thức chuyên ngành công nghệ thông tin và cùng nhau phát triển kỹ năng làm việc nhóm, tư duy logic và khả năng sáng tạo. Mỗi thành viên đều có thế mạnh riêng, góp phần tạo nên sự cân bằng và hiệu quả trong quá trình làm việc..<br />
+                    Nhóm luôn làm việc với phương châm “Hợp tác – Chủ động – Hiệu quả”, đặt tinh thần trách nhiệm lên hàng đầu và nỗ lực hoàn thành tốt mọi nhiệm vụ được giao. Bên cạnh việc học trên lớp, chúng tôi còn chủ động tìm hiểu thêm các công nghệ mới, ngôn ngữ lập trình hiện đại để áp dụng vào bài tập, dự án thực tế.<br />
+                    Trong thời gian tới, nhóm hướng đến việc phát triển một sản phẩm công nghệ nhỏ như ứng dụng, website hoặc công cụ hỗ trợ học tập, vừa để củng cố kiến thức vừa tạo cơ hội trải nghiệm quy trình làm việc thực tế. Chúng tôi mong nhận được sự hướng dẫn, góp ý và hỗ trợ từ thầy cô, bạn bè để nhóm ngày càng tiến bộ hơn.<br />
+                    <br /> <b>Nhóm xin chân thành cảm ơn sự quan tâm và đồng hành của mọi người!</b><br />
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <script> addContainTaiKhoan(); </script>
+
+    <div class="footer">
+        <script>addFooter();</script>
+        
+    </div>
+
+    <i class="fa fa-arrow-up" id="goto-top-page" onclick="gotoTop()"></i>
+</body>
+
+</html>
