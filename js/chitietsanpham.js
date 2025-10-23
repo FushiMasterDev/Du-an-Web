@@ -97,15 +97,6 @@ function phanTich_URL_chiTietSanPham() {
     hinh.src = sanPhamHienTai.img;
     document.getElementById('bigimg').src = sanPhamHienTai.img;
 
-    // Hình nhỏ
-    addSmallImg("img/products/huawei-mate-20-pro-green-600x600.jpg");
-    addSmallImg("img/chitietsanpham/oppo-f9-mau-do-1-org.jpg");
-    addSmallImg("img/chitietsanpham/oppo-f9-mau-do-2-org.jpg");
-    addSmallImg("img/chitietsanpham/oppo-f9-mau-do-3-org.jpg");
-    addSmallImg("img/products/huawei-mate-20-pro-green-600x600.jpg");
-    addSmallImg("img/chitietsanpham/oppo-f9-mau-do-3-org.jpg");
-    addSmallImg("img/products/huawei-mate-20-pro-green-600x600.jpg");
-
     // Khởi động thư viện hỗ trợ banner - chỉ chạy sau khi tạo xong hình nhỏ
     var owl = $('.owl-carousel');
     owl.owlCarousel({
